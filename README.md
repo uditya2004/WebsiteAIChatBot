@@ -87,7 +87,7 @@ WebsiteAIChatBot/
 
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Flask (Python)
-- **AI Model**: Llama 3 8B via Groq API
+- **AI Model**: Llama 3 8B via [Groq API](https://groq.com/)
 
 ## How It Works
 
