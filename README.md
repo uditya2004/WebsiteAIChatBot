@@ -7,8 +7,8 @@ A website AI virtual assistant built using HTML, CSS, JavaScript, and Python (Fl
 - Natural language processing with Groq API and Llama 3 8B
 - Customizable frontend for seamless user interaction
 
-## Demo
-To see a demonstration of the AI Chat Bot in action, you can run it locally by following the instructions provided below.
+## Screenshots
+![Chat Bot Screenshot](Demo.png)
 
 ## Requirements
 Ensure you have the following prerequisites installed:
@@ -93,10 +93,6 @@ WebsiteAIChatBot/
 - The frontend, built using HTML, CSS, and JavaScript, provides a chat interface for users.
 - User messages are sent to the backend (Flask app) where they are processed using the Groq API to access the Llama 3 8B model.
 - Responses are then sent back to the user, providing an interactive and intelligent conversation experience.
-
-## Screenshots
-
-![Chat Bot Screenshot](Demo.png)
 
 ## Contributions
 
