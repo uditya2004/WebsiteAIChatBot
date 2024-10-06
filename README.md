@@ -98,10 +98,6 @@ WebsiteAIChatBot/
 
 ![Chat Bot Screenshot](chat-icon.jpg)
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
 ## Contributions
 
 Feel free to contribute! If you want to enhance the features or fix any bugs, just create a pull request.
