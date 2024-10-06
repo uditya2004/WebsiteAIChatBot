@@ -1,0 +1,115 @@
+/* Style for the floating chatbot bubble */
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.chatbot-bubble {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.chatbot-bubble img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Hidden chat panel */
+.chat-panel {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.chat-header {
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-content {
+    flex-grow: 1;
+    padding: 10px;
+    overflow-y: auto;
+    border-bottom: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Chat bubbles for messages */
+.user-message,
+.bot-message {
+    display: block;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px 10px;
+    max-width: 70%;
+    font-size: 14px;
+    word-wrap: break-word;
+    clear: both;
+}
+
+.user-message {
+    background-color: #dcf8c6; /* Light green typical of WhatsApp */
+    color: black;
+    align-self: flex-end;
+    text-align: left;
+    border-radius: 15px 15px 0 15px; /* Rounded corner only on the top-left */
+    float: right; /* Align user message to the right */
+}
+
+.bot-message {
+    background-color: #f1f1f1;
+    color: black;
+    align-self: flex-start;
+    text-align: left;
+    border-radius: 15px 15px 15px 0; /* Rounded corner only on the top-right */
+    float: left; /* Align bot message to the left */
+}
+
+.chat-input {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.chat-input button {
+    padding: 8px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.close-chat {
+    cursor: pointer;
+}
