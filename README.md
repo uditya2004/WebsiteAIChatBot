@@ -96,7 +96,7 @@ WebsiteAIChatBot/
 
 ## Screenshots
 
-![Chat Bot Screenshot](chat-icon.jpg)
+![Chat Bot Screenshot](Demo.png)
 
 ## Contributions
 
